@@ -64,26 +64,8 @@ The Traffic Sign Recognition System is designed with the following pipeline:
 ## **Setup Instructions**
 1. Clone this repository:
    ```bash
-   git clone https://github.com/your-username/traffic-sign-recognition.git
+   git clone https://github.com/Thrishanka051/traffic-sign-recognition.git
    cd traffic-sign-recognition
-   ```
-2. Install required dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-3. Download the pretrained YOLO weights and place them in the `models` folder.
-
-4. Train the detection model:
-   ```bash
-   python train_detection.py --config configs/detection_config.yaml
-   ```
-5. Train the classification model:
-   ```bash
-   python train_classification.py --dataset datasets/gtsrb --classes 9
-   ```
-6. Run the integrated detection and classification system:
-   ```bash
-   python run_model.py --input test_video.mp4
    ```
 
 ---
